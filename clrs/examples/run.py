@@ -514,7 +514,6 @@ def main(unused_argv):
     length_idx = (length_idx + 1) % len(train_lengths)
 
   logging.info('Done!')
-  return
   logging.info('Restoring best model from checkpoint...')
   eval_model.restore_model('best.pkl', only_load_processor=False)
 

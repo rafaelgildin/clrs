@@ -5,6 +5,7 @@
 build/
 dist/
 venv/
+.cache
 
 # Mac OS
 .DS_Store
@@ -19,3 +20,6 @@ venv/
 .vscode
 
 ignore*
+test*
+OAI_CONFIG_LIST
+__pycache__
